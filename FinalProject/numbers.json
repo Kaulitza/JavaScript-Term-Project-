@@ -1,0 +1,10 @@
+{
+  "numbers": [
+    {
+      "Name": "2048",
+      "Age": "10 and up",
+      "Players": "1",
+      "Goal":  "Add up identical numbers by dragging them until you reach 2048!"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tictactoe": [
+    {
+      "Name": "Tic Tac Toe",
+      "Age": "5 and up",
+      "Players": "1 (vs. computer) or 2",
+      "Goal": "Score points by getting three of the same kind in a row!"
+    }
+  ]
+}
