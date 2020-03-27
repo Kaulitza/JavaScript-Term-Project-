@@ -2,16 +2,29 @@
 <html>
 <head>
     <link href="css/finalProject.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Tangerine&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="col-6 col-m-9">
-        <h1>Gamepage</h1>
-        <button id="tictactoe" style="background-color:orchid;">Tic Tac Toe</button>
-        <button id="dressup" style="background-color:purple;">Dress Up</button>
-        <button id="numbers" style="background-color:blue;">2048</button>
-        <button id="readme" style="background-color:lightseagreen;">Info</button>
-        <p id="game"></p>
+    <div id="mySidenav" class=" sidenav">
+        <a href="javascrip:void(0)" class="closebtn" onclick="CloseNav()">&times;</a>
+        <a href="2048/2048.html">2048</a>
+        <a href="dressup.json">Dress Up Game</a>
+        <a href="tictactoe/tictactoe.html">Tic Tac Toe</a>
+        <a href="readme.txt">Website Information</a>
     </div>
+    <div id="main">
+        <span style="font-size:30px; font-family: Nothing You Could Do;
+    font-size: 2em; cursor:pointer" onclick="openNav()">&#9776; Games</span>
+    </div>
+    <section>
+        <h1>Welcome</h1>
+        <p>
+            Welcome to my page. I hope you are up for having some fun! <br>
+            Please check the menu on the left to find a game you enjoy!<br>
+            <br>
+            Michelle
+        </p>
+    </section>
     <script src="js/finalProject.js"></script>
 </body>
 </html>
