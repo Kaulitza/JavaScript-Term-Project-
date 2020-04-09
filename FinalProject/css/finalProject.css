@@ -16,7 +16,7 @@
 div {
     opacity:.8;
     font-family: 'Adobe Devanagari';
-    color: black;
+    color: whitesmoke;
     flex: 1;
     margin-top:10px;
 }
@@ -25,7 +25,8 @@ section {
     max-width: 600px;
     text-align: center;
     font-family: "Nothing You Could Do";
-    font-size:20px;
+    font-size: 20px;
+    color: whitesmoke;
 }
 .sidenav {
     height: 100%;
@@ -40,10 +41,12 @@ section {
     padding-top: 60px;
     font-family: "Nothing You Could Do";
     font-size: 2em;
+    color:whitesmoke;
 }
 #main {
     transition: margin-left .5s;
     padding: 16px;
+    color: whitesmoke;
 }
     .sidenav a {
         padding: 8px 8px 8px 32px;
@@ -67,6 +70,13 @@ section {
         margin-left: 50px;
     }
 
+span {
+    color: whitesmoke;
+    font-size:30px; 
+    font-family: Nothing You Could Do; 
+    font-size: 2em;
+    cursor: pointer;
+}
 h1 {
     color: whitesmoke;
     font-family: 'Permanent Marker';

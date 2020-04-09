@@ -1,46 +1,36 @@
-var hairs = ["black", "#000066", "tomato", "#993300", "#5c5c3d", "#000066"];
-var tops = ["top1", "top2", "top3", "top4"];
-var acc = ["acc1", "acc2", "acc3", "acc4"];
-var eye = ["black", "#99ccff", "#ff99ff", "#993300", "#b3ff66", "#cc0066"]
+var hairstyles = ["black", "#664F3C", "6F4E37", "#FBF6D9", "#BCC6CC", "#C11B17"];
+var outfits = ["outfit1", "outfit2", "outfit3", "outfit4"];
+var accessoires = ["accessoires1", "accessoires2", "accessoires3", "accessoires4"];
+var eye = ["#634e34", "#2e536f", "#3d671d", "#1c7847", "#497665", "#528C9E"]
 var skin = ["#fff9e6", "#ffecb3", "#ffb366", "#4d2600"];
-var lips = ["#ffb3b3", "#ff6347", "#ffa347", "#cc66ff", "#cc0000", "#cc0066"];
+var lips = ["#A60061", "#B95594", "#D162A8", "#E5ADD1", "#C64D53", "#8C1801"];
 var j = 0;
 var i = 0;
 var k = 0;
 var l = 0;
 var m = 0;
 var n = 0;
-function chngehair() {
-    if (i == (hairs.length) - 1) {
+function changehair() {
+    if (i == (hairstyles.length) - 1) {
         i = 0;
     }
     else {
         i++;
     }
-    document.getElementById("hair1").style.backgroundColor = hairs[i];
-    document.getElementById("hair2").style.backgroundColor = hairs[i];
+    document.getElementById("hair1").style.backgroundColor = hairstyles[i];
+    document.getElementById("hair2").style.backgroundColor = hairstyles[i];
 }
-function chngetop() {
-    document.getElementById(tops[j]).style.visibility = "hidden";
-    if (j == (tops.length) - 1) {
+function changeoutfit() {
+    document.getElementById(outfits[j]).style.visibility = "hidden";
+    if (j == (outfits.length) - 1) {
         j = 0;
     }
     else {
         j++;
     }
-    document.getElementById(tops[j]).style.visibility = "visible";
+    document.getElementById(outfits[j]).style.visibility = "visible";
 }
-function chngeacc() {
-    document.getElementById(acc[k]).style.visibility = "hidden";
-    if (k == (acc.length) - 1) {
-        k = 0;
-    }
-    else {
-        k++;
-    }
-    document.getElementById(acc[k]).style.visibility = "visible";
-}
-function chngeeye() {
+function changeeye() {
     if (l == (eye.length) - 1) {
         l = 0;
     }
@@ -50,7 +40,7 @@ function chngeeye() {
     document.getElementById("eye1").style.backgroundColor = eye[l];
     document.getElementById("eye2").style.backgroundColor = eye[l];
 }
-function chngeskin() {
+function changeskin() {
     if (m == (skin.length) - 1) {
         m = 0;
     }
@@ -58,13 +48,13 @@ function chngeskin() {
         m++;
     }
     document.getElementById("face").style.backgroundColor = skin[m];
-    document.getElementById("handl").style.backgroundColor = skin[m];
-    document.getElementById("handr").style.backgroundColor = skin[m];
+    document.getElementById("lefthand").style.backgroundColor = skin[m];
+    document.getElementById("righthand").style.backgroundColor = skin[m];
     document.getElementById("neck").style.backgroundColor = skin[m];
     document.getElementById("neck1").style.backgroundColor = skin[m];
     document.getElementById("body").style.backgroundColor = skin[m];
 }
-function chngelip() {
+function changelip() {
     if (n == (lips.length) - 1) {
         n = 0;
     }
@@ -73,3 +63,9 @@ function chngelip() {
     }
     document.getElementById("lip").style.backgroundColor = lips[n];
 }
+document.getElementById("finish").addEventListener("click", function (e) {
+    window.location.assign("dressupConfirm.html")
+});
+document.getElementById("readme").addEventListener("click", function (e) {
+    window.location.assign("readme.txt")
+});

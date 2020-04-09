@@ -1,0 +1,23 @@
+﻿body {
+    background-image: url(../media/confirm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+}
+button {
+    background-color: whitesmoke;
+    border: 2px solid brown;
+    border-radius: 10px;
+    color: brown;
+    padding: 5px;
+    font-size: 19px;
+    font-family: 'Courgette', cursive;
+}

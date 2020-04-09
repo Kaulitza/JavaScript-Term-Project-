@@ -189,7 +189,7 @@ hr {
             border-radius: 3px;
             padding: 0 20px;
             text-decoration: none;
-            color: whitesmoke;
+            color: black;
             height: 40px;
             line-height: 42px;
             margin-left: 9px;
@@ -387,66 +387,66 @@ hr {
 
     .tile.tile-2 .tile-inner {
         background: #FBBBCB;
-        color: whitesmoke;
+        color: black;
     }
 
 
     .tile.tile-4 .tile-inner {
         background: #F79AC0;
-        color: whitesmoke;
+        color: black;
     }
 
     .tile.tile-8 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background: #FDA4B8;
     }
 
     .tile.tile-16 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background: #FC94AD;
     }
 
     .tile.tile-32 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background: #FE7F9C;
     }
 
     .tile.tile-64 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background: #FA86C5;
     }
 
     .tile.tile-128 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background-color: #F26B8B;
         box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
         font-size: 45px;
     }
 
     .tile.tile-256 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background-color: #F15278;
         box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
         font-size: 45px;
     }
 
     .tile.tile-512 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background-color: #FD5CA8;
         box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
         font-size: 45px;
     }
 
     .tile.tile-1024 .tile-inner {
-        color: whitesmoke;
+        color: black;
         background-color: #FF1695;
         box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
         font-size: 45px;
     }
 
     .tile.tile-2056 .tile-inner {
-        color: whitesmoke;
-        background-color: whitesmoke;
+        color: black;
+        background-color: #E11584;
         box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
         font-size: 45px;
     }

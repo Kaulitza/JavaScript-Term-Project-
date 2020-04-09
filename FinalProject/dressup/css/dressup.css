@@ -1,8 +1,17 @@
-﻿.backg {
-    background-color: #ffcccc;
+﻿body {
+    margin-left: 200px;
+    margin-top: 100px;
+    background-image: url(../media/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gamespace {
+    background-color: lightcoral;
     width: 350px;
     height: 510px;
     overflow: hidden;
+    border: 2px solid mediumseagreen;
 }
 
 .hair1 {
@@ -35,7 +44,7 @@
     left: 10px;
 }
 
-.eyel {
+.lefteye {
     background-color: white;
     width: 20px;
     height: 20px;
@@ -45,7 +54,7 @@
     left: 9px;
 }
 
-.eyer {
+.righteye {
     background-color: white;
     width: 20px;
     height: 20px;
@@ -101,7 +110,7 @@
     left: 5px;
 }
 
-.mouth {
+.lips {
     width: 20px;
     height: 20px;
     background: #ffb3b3;
@@ -136,7 +145,7 @@
     right: 30px;
 }
 
-.handl {
+.lefthand {
     position: relative;
     background-color: #ffecb3;
     height: 120px;
@@ -147,7 +156,7 @@
     transform: rotate(10deg);
 }
 
-.handr {
+.righthand {
     position: relative;
     background-color: #ffecb3;
     height: 120px;
@@ -168,18 +177,18 @@
     right: 1px;
 }
 
-.top2 {
+.outfit2 {
     width: 80px;
     height: 90px;
-    background-color: #ff5050;
+    background-color: crimson;
     position: relative;
     bottom: 450px;
     visibility: hidden;
     right: 1px;
 }
 
-.top4 {
-    background-color: #d5a1fc;
+.outfit4 {
+    background-color:darkmagenta;
     position: relative;
     height: 90px;
     width: 80px;
@@ -188,26 +197,26 @@
     visibility: hidden;
 }
 
-.strap3 {
+.strap4 {
     position: relative;
-    border-bottom: 30px solid #d5a1fc;
+    border-bottom: 30px solid darkmagenta;
     border-left: 80px solid transparent;
     bottom: 28px;
 }
 
-.top3 {
+.outfit3 {
     width: 80px;
     height: 90px;
-    background-color: #d9ff66;
+    background-color: lightseagreen;
     position: relative;
     bottom: 544px;
     right: 1px;
     visibility: hidden;
 }
 
-.strap1 {
+.strap3left {
     position: relative;
-    background-color: #d9ff66;
+    background-color: lightseagreen;
     width: 5px;
     height: 41px;
     bottom: 35px;
@@ -215,9 +224,9 @@
     transform: rotate(30deg);
 }
 
-.strap2 {
+.strap3right {
     position: relative;
-    background-color: #d9ff66;
+    background-color:lightseagreen;
     width: 5px;
     height: 41px;
     bottom: 76px;
@@ -231,7 +240,7 @@
     height: 20px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    background: #ff5050;
+    background: crimson;
 }
 
 .n1 {
@@ -244,10 +253,10 @@
     left: 40px;
 }
 
-.top1 {
+.outfit1 {
     width: 80px;
     height: 120px;
-    background-color: tomato;
+    background-color: royalblue;
     border-radius: 15px;
     position: relative;
     bottom: 365px;
@@ -265,10 +274,10 @@
     background: #ffecb3;
 }
 
-.sleevel1 {
+.leftsleeve1 {
     width: 20px;
     height: 25px;
-    background-color: tomato;
+    background-color: royalblue;
     transform: rotate(10deg);
     right: 16px;
     bottom: 26.5px;
@@ -277,10 +286,10 @@
     border-top-right-radius: 25px;
 }
 
-.sleever1 {
+.rightsleeve1 {
     width: 20px;
     height: 25px;
-    background-color: tomato;
+    background-color: royalblue;
     transform: rotate(-10deg);
     left: 75px;
     bottom: 50px;
@@ -289,39 +298,26 @@
     border-top-right-radius: 25px;
 }
 
-.print1 {
-    width: 65px;
-    bottom: 45px;
-    left: 5px;
-    position: relative;
-}
-
-.sleevel2 {
+.leftsleeve2 {
     width: 20px;
     height: 15px;
     transform: rotate(10deg);
-    background-color: #ff5050;
+    background-color:crimson;
     position: relative;
     right: 18px;
     bottom: 50px;
 }
 
-.sleever2 {
+.rightsleeve2 {
     width: 20px;
     height: 15px;
     transform: rotate(-10deg);
-    background-color: #ff5050;
+    background-color: crimson;
     position: relative;
     left: 78px;
     bottom: 63px;
 }
 
-.glass1 {
-    width: 80px;
-    bottom: 827px;
-    position: relative;
-    visibility: hidden;
-}
 
 .hairb1 {
     width: 80px;
@@ -331,15 +327,6 @@
     transform: rotate(35deg);
     visibility: hidden;
 }
-
-.hat1 {
-    width: 130px;
-    bottom: 1015px;
-    right: 27px;
-    position: relative;
-    visibility: hidden;
-}
-
 .hairb2 {
     width: 75px;
     bottom: 1075px;
@@ -349,29 +336,29 @@
 }
 
 .heading {
-    background-color: white;
+    background-color: antiquewhite;
     padding: 8px;
-    border: 2px solid #ff8080;
+    border: 2px solid mediumseagreen;
     border-radius: 10px;
-    color: #ff8080;
+    color: mediumseagreen;
     text-align: center;
     position: relative;
     bottom: 30px;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Permanent Marker';
     font-size: 30px;
 }
 
-.choose {
-    background-color: #ff8080;
+.game {
+    background-color: antiquewhite;
     padding: 10px;
     text-align: center;
 }
 
-.b {
-    background-color: white;
-    border: 2px solid #ff8080;
+.button {
+    background-color: antiquewhite;
+    border: 2px solid mediumseagreen;
     border-radius: 10px;
-    color: #ff8080;
+    color: mediumseagreen;
     padding: 5px;
     font-size: 19px;
     font-family: 'Courgette', cursive;
