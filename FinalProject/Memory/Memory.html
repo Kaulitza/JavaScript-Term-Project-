@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/memory.css" rel="stylesheet">
+    <script src="js/memory.js" async></script>
+    <title>Travel Memory Game</title>
+</head>
+<body>
+    <h1>Travel Memory Game</h1>
+    <!--Screens for game over, win and start of game-->
+    <div class="overlay-text visible">
+        Click to Start
+       <span class="overlay-text-small"><a href="readme.txt" id="readme">Read Me</a></span>
+    </div>
+    <div id="game-over-text" class="overlay-text">
+        GAME OVER
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+        VICTORY
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <!--Game screen-->
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">
+                Flips <span id="flips">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <!--Back of the card-->
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <!--Content of the card-->
+            <div class="card-front card-face">
+                <img class="city" src="media/alexandria.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/alexandria.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/amsterdam.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/amsterdam.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/barcelona.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/barcelona.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/berlin.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/berlin.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/firenze.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/firenze.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/london.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/london.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/paris.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/paris.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/rome.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/rome.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/venice.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="plane plane-top-left" src="media/plane.png">
+                <img class="plane plane-top-right" src="media/plane.png">
+                <img class="plane plane-bottom-left" src="media/plane.png">
+                <img class="plane plane-bottom-right" src="media/plane.png">
+                <img class="globe" src="media/globe.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="city" src="media/venice.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

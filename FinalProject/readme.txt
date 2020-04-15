@@ -9,9 +9,9 @@ Slide clothing on top of the person to give them the look you like. Ages 3 and u
 3. 2048:
 Drag identical numbers together in order to make them add up to 2048 to win the game.
 
-Honor's Project: Pacman:
-Use the arrows on your keyboard to navigate pacman and eat all the cookies without getting caught.
+Honor's Project: Memory:
+Flip cards to reveal the content and try to match them up before the time runs out.
 
 Copyright: Michelle Vanwettere
 Created: March 5th, 2020
-Last Update: April 9th, 2020
+Last Update: April 14th, 2020
